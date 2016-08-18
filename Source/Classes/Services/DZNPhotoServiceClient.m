@@ -35,9 +35,9 @@
         
         self.requestSerializer = [AFJSONRequestSerializer serializer];
         self.responseSerializer = [AFHTTPResponseSerializer serializer];
-        
+#ifndef TP_APP_EXTENSION
         [[AFNetworkActivityIndicatorManager sharedManager] setEnabled:YES];
-        
+#endif        
         [self configureHTTPHeader];
     }
     return self;
