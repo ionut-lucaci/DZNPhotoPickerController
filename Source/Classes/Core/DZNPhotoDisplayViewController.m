@@ -262,7 +262,7 @@ static NSUInteger kDZNPhotoDisplayMinimumColumnCount = 4.0;
     CGFloat topBarsHeight = 0.0;
     
     if (DZN_IS_IPHONE) {
-#ifdef TP_APP_EXTENSIONS
+#ifdef TP_APP_EXTENSION
         CGFloat statusHeight = 20.0;
 #else
         CGFloat statusHeight = CGRectGetHeight([UIApplication sharedApplication].statusBarFrame);
