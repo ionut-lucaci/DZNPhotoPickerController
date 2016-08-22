@@ -361,7 +361,7 @@ typedef NS_ENUM(NSInteger, DZNPhotoAspect) {
 {
 #ifdef TP_APP_EXTENSION
     CGFloat height = 20;
-#elif
+#else
     CGFloat height = CGRectGetHeight([UIApplication sharedApplication].statusBarFrame);
 #endif
     height += CGRectGetHeight(self.navigationController.navigationBar.frame);
