@@ -451,7 +451,7 @@ static NSUInteger kDZNPhotoDisplayMinimumColumnCount = 4.0;
             __weak DZNPhotoEditorViewController *weakController = controller;
             
             [controller.imageView sd_setImageWithPreviousCachedImageWithURL:metadata.sourceURL
-                                                           placeholderImage:nil
+                                                        andPlaceholderImage:nil
                                                                     options:SDWebImageCacheMemoryOnly|SDWebImageProgressiveDownload|SDWebImageRetryFailed
                                                                    progress:NULL
                                                                   completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
