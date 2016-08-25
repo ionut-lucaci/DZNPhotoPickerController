@@ -8,7 +8,6 @@
 //  Licence: MIT-Licence
 //
 
-#import "AFNetworking.h"
 #import "DZNPhotoServiceClientProtocol.h"
 #import "DZNPhotoPickerControllerConstants.h"
 
@@ -18,6 +17,8 @@ extern NSString *const DZNPhotoServiceClientSubscription;
 
 extern NSString *const DZNPhotoServiceCredentialIdentifier;
 extern NSString *const DZNPhotoServiceCredentialAccessToken;
+
+@class AFHTTPSessionManager;
 
 /**
  The HTTP service client used to interact with multiple RESTful APIs for photo search services.
