@@ -8,8 +8,6 @@
 //  Licence: MIT-Licence
 //
 
-#import "AFNetworking.h"
-
 #import "DZNPhotoServiceClient.h"
 
 #import "DZNPhotoServiceConstants.h"
